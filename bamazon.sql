@@ -14,14 +14,14 @@ CREATE TABLE products (
 
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES  ('Football', 'Sports', 20.00, 200),
-		('Baseball', 'Sports', 7.00, 320),
-		('Basketball', 'Sports', 25.00, 180),
-		('Golf Ball', 'Sports', 4.00, 400),
-		('Basketball Shoes', 'Sports', 70.00, 50),
-		('Football Cleats', 'Sports', 50.00, 60),
-		('Baseball Cleats', 'Sports', 45.00, 70),
-		('Golf Spikes', 'Sports', 75.00, 45),
-		('Football Pads', 'Sports', 120.00, 40),
-		('Golf Tees', 'Sports', 2.00, 430),
-		('Golf Bags', 'Sports', 85.00, 50)
+VALUES  ('Footballs', 'Football', 20.00, 200),
+		('Baseballs', 'Baseball', 7.00, 320),
+		('Basketballs', 'Basketball', 25.00, 180),
+		('Golf Balls', 'Golf', 4.00, 400),
+		('Basketball Shoes', 'Basketball', 70.00, 50),
+		('Football Cleats', 'Football', 50.00, 60),
+		('Baseball Cleats', 'Baseball', 45.00, 70),
+		('Golf Spikes', 'Golf', 75.00, 45),
+		('Football Pads', 'Football', 120.00, 40),
+		('Golf Tees', 'Golf', 2.00, 430),
+		('Golf Bags', 'Golf', 85.00, 50)
