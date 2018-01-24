@@ -9,5 +9,8 @@ var connection = mysql.createConnection({
      password: '',
      database: "Bamazon"
 
+connection.connect(function(err){
+	if (err) throw err;
+	console.log('connected as id: ' + connection.threadId)
 
-
+function bamazon inventory
